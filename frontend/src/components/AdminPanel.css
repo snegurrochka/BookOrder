@@ -1,0 +1,89 @@
+.admin-panel {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2, h3 {
+  color: #333;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.book-management, .order-list {
+  margin: 20px 0;
+  padding: 15px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.add-book {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+}
+
+.add-book input, .add-book select {
+  margin: 5px;
+  padding: 10px;
+  font-size: 14px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  width: 250px;
+}
+
+.add-book button, .book-list button {
+  margin: 5px;
+  padding: 8px 12px; /* Компактніше */
+  background-color: #007BFF;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-size: 12px; /* Зменшено шрифт */
+  border-radius: 4px; /* Зменшено радіус */
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.add-book button:hover, .book-list button:hover {
+  background-color: #0056b3;
+  transform: scale(1.05);
+}
+
+.add-book button:active, .book-list button:active {
+  transform: scale(1);
+}
+
+.order-list table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.order-list th, .order-list td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: left;
+  font-size: 14px;
+}
+
+.order-list th {
+  background-color: #007BFF;
+  color: white;
+  text-transform: uppercase;
+}
+
+.order-list tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.order-list tr:hover {
+  background-color: #f1f1f1;
+}
+
+.centered {
+  text-align: center;
+}
